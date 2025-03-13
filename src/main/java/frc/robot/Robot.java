@@ -35,7 +35,6 @@ public class Robot extends TimedRobot {
     // gearbox is constructed, you might have to invert the left side instead.
     m_rightMotor.setInverted(true);
   }
-
   @Override
   public void teleopPeriodic() {
     // Drive with arcade drive.
